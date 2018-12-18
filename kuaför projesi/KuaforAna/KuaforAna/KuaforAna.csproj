@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{697465DE-3D7C-450A-BC5B-788CD744ACAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KuaforAna</RootNamespace>
+    <AssemblyName>KuaforAna</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="amele.cs" />
+    <Compile Include="ConnectionClass.cs" />
+    <Compile Include="DBMS For Kuaför.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBMS For Kuaför.Designer.cs">
+      <DependentUpon>DBMS For Kuaför.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ücret Hesaplama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ücret Hesaplama.Designer.cs">
+      <DependentUpon>Ücret Hesaplama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ürün İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ürün İşlemleri.Designer.cs">
+      <DependentUpon>Ürün İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Misafir Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misafir Ekranı.Designer.cs">
+      <DependentUpon>Misafir Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Randevu İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Randevu İşlemleri.Designer.cs">
+      <DependentUpon>Randevu İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullancı İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullancı İşlemleri.Designer.cs">
+      <DependentUpon>Kullancı İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müşteri İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müşteri İşlemleri.Designer.cs">
+      <DependentUpon>Müşteri İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı Ekleme Paneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı Ekleme Paneli.Designer.cs">
+      <DependentUpon>Kullanıcı Ekleme Paneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Şifrenizi Değiştirin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Şifrenizi Değiştirin.Designer.cs">
+      <DependentUpon>Şifrenizi Değiştirin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı Silme Paneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı Silme Paneli.Designer.cs">
+      <DependentUpon>Kullanıcı Silme Paneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Şifre Değiştirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Şifre Değiştirme.Designer.cs">
+      <DependentUpon>Şifre Değiştirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giriş.Designer.cs">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBMS For Kuaför.resx">
+      <DependentUpon>DBMS For Kuaför.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misafir Ekranı.resx">
+      <DependentUpon>Misafir Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Randevu İşlemleri.resx">
+      <DependentUpon>Randevu İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullancı İşlemleri.resx">
+      <DependentUpon>Kullancı İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı Ekleme Paneli.resx">
+      <DependentUpon>Kullanıcı Ekleme Paneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müşteri İşlemleri.resx">
+      <DependentUpon>Müşteri İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ücret Hesaplama.resx">
+      <DependentUpon>Ücret Hesaplama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ürün İşlemleri.resx">
+      <DependentUpon>Ürün İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Şifrenizi Değiştirin.resx">
+      <DependentUpon>Şifrenizi Değiştirin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giriş.resx">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı Silme Paneli.resx">
+      <DependentUpon>Kullanıcı Silme Paneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Şifre Değiştirme.resx">
+      <DependentUpon>Şifre Değiştirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\b1.jpg" />
+    <Content Include="images\b10.jpg" />
+    <Content Include="images\b11.jpg" />
+    <Content Include="images\b13.jpg" />
+    <Content Include="images\b14.jpg" />
+    <Content Include="images\b15.jpg" />
+    <Content Include="images\b16.jpg" />
+    <Content Include="images\b17.jpg" />
+    <Content Include="images\b18.jpg" />
+    <Content Include="images\b19.jpg" />
+    <Content Include="images\b2.jpg" />
+    <Content Include="images\b3.jpg" />
+    <Content Include="images\b4.jpg" />
+    <Content Include="images\b5.jpg" />
+    <Content Include="images\b6.jpg" />
+    <Content Include="images\b7.jpg" />
+    <Content Include="images\b8.jpg" />
+    <Content Include="images\b9.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

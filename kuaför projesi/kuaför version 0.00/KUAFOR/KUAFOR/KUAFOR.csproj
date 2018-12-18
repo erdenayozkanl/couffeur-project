@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D382D5D4-8230-4950-81B4-E44362E1BC07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KUAFOR</RootNamespace>
+    <AssemblyName>KUAFOR</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="amele.cs" />
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionClass.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORD2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORD2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORD3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORD3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORD4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORD4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORD5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORD5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KUAFORDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KUAFORDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı_ekle.Designer.cs">
+      <DependentUpon>Kullanıcı_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı_sil.Designer.cs">
+      <DependentUpon>Kullanıcı_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MisafirKullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MisafirKullanici.Designer.cs">
+      <DependentUpon>MisafirKullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri.Designer.cs">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randevucs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Randevucs.Designer.cs">
+      <DependentUpon>Randevucs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sifre 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sifre 2.Designer.cs">
+      <DependentUpon>sifre 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sifre.Designer.cs">
+      <DependentUpon>sifre.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı_ekle.resx">
+      <DependentUpon>Kullanıcı_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı_sil.resx">
+      <DependentUpon>Kullanıcı_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MisafirKullanici.resx">
+      <DependentUpon>MisafirKullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri.resx">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Randevucs.resx">
+      <DependentUpon>Randevucs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sifre 2.resx">
+      <DependentUpon>sifre 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sifre.resx">
+      <DependentUpon>sifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="KUAFORD2.xsc">
+      <DependentUpon>KUAFORD2.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORD2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORD2.xss">
+      <DependentUpon>KUAFORD2.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD3.xsc">
+      <DependentUpon>KUAFORD3.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORD3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORD3.xss">
+      <DependentUpon>KUAFORD3.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD4.xsc">
+      <DependentUpon>KUAFORD4.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORD4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORD4.xss">
+      <DependentUpon>KUAFORD4.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD5.xsc">
+      <DependentUpon>KUAFORD5.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORD5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORD5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORD5.xss">
+      <DependentUpon>KUAFORD5.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet.xsc">
+      <DependentUpon>KUAFORDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORDataSet.xss">
+      <DependentUpon>KUAFORDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet1.xsc">
+      <DependentUpon>KUAFORDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORDataSet1.xss">
+      <DependentUpon>KUAFORDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet2.xsc">
+      <DependentUpon>KUAFORDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORDataSet2.xss">
+      <DependentUpon>KUAFORDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet3.xsc">
+      <DependentUpon>KUAFORDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORDataSet3.xss">
+      <DependentUpon>KUAFORDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet4.xsc">
+      <DependentUpon>KUAFORDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORDataSet4.xss">
+      <DependentUpon>KUAFORDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet5.xsc">
+      <DependentUpon>KUAFORDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="KUAFORDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KUAFORDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KUAFORDataSet5.xss">
+      <DependentUpon>KUAFORDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

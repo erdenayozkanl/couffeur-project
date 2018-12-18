@@ -1,0 +1,42 @@
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\bin\Debug\KuaforAna.exe.config
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\bin\Debug\KuaforAna.exe
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\bin\Debug\KuaforAna.pdb
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.csprojResolveAssemblyReference.cache
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form1.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Properties.Resources.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.csproj.GenerateResource.Cache
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.exe
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.pdb
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form2.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form6.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form7.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form5.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form4.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form3.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form9.resources
+c:\users\by rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form8.resources
+C:\Users\By Rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form12.resources
+C:\Users\By Rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form10.resources
+C:\Users\By Rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form13.resources
+C:\Users\By Rdv\documents\visual studio 2015\Projects\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form11.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\bin\Debug\KuaforAna.exe.config
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.exe
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.pdb
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\bin\Debug\KuaforAna.exe
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\bin\Debug\KuaforAna.pdb
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.csprojResolveAssemblyReference.cache
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form12.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form1.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form10.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form9.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form8.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form6.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form7.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form13.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form11.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form5.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form2.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form4.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Properties.Resources.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.Form3.resources
+C:\Users\Erdenay\Desktop\KuaforAna\KuaforAna\obj\Debug\KuaforAna.csproj.GenerateResource.Cache
